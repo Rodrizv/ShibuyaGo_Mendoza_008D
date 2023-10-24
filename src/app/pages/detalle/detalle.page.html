@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Detalle de Vehiculos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>ID #{{vehiculo.id}} </ion-card-subtitle>
+      <ion-card-title>Marca:{{vehiculo.marca}} </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <span>Modelo:{{vehiculo.modelo}} </span>
+      <span>Tipo de Vehiculo:{{vehiculo.tipoVehiculo}} </span>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

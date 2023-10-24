@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="icon-only" name="menu-outline" color="success"></ion-icon>
+        
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons>
+      <ion-img src="assets/banner.png" class="ion-padding"></ion-img>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+  </ion-header>
+  <p style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: large; font-weight: bold;">Bienvenido a Shibuya Go!</p>
+  <ion-img src="assets/Logo.png" class="ion-padding"></ion-img>
+  <br>
+
+  <ion-button routerLink="/listar" expand="block" fill="solid" color="success" shape="round" style="width: 240px; margin-left: auto; margin-right: auto;">
+    <p style="font-weight: bold;">Ver Vehículos</p>
+  </ion-button>
+
+  <ion-button routerLink="/info" expand="block" fill="solid" color="warning" shape="round" style="width: 180px; margin-left: auto; margin-right: auto;">
+    <p style="font-weight: bold;">Nosotros</p>
+  </ion-button>
+</ion-content>

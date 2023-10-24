@@ -1,0 +1,39 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "prueba",
+      "password": "12345",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "username": "duoc",
+      "password": "maipu",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "username": "Pepe",
+      "password": "12345",
+      "role": "usuario",
+      "isactive": true,
+      "id": 3
+    }
+  ],
+  "vehiculos": [
+    {
+      "id": 1,
+      "marca": "Mitsubishi",
+      "modelo": "Lancer",
+      "tipoVehiculo": "Deportivo"
+    },
+    {
+      "id": 2,
+      "marca": "Chrysler",
+      "modelo": "TownCountry",
+      "tipoVehiculo": "Familiar"
+    }
+  ]
+}

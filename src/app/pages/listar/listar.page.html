@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Vehiculos</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/inicio"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+      <ion-label *ngFor="let v of vehiculos; let i=index" [routerLink]="['/detalle',v.id]">
+        <ion-label>{{v['marca']}} &nbsp; {{v['modelo']}} </ion-label>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
